@@ -1,3 +1,5 @@
+﻿cmake_minimum_required(VERSION 3.10)
+
 PROJECT (UNIXLIKEFS)
 
 set(CMAKE_BUILD_TYPE "Debug")
