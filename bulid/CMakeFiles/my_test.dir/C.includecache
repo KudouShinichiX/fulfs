@@ -1,0 +1,422 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/Operating System Curriculum Design/fulfs/datastruct/string.c
+string.h
+/mnt/e/Operating System Curriculum Design/fulfs/datastruct/string.h
+string.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/datastruct/string.h
+stddef.h
+-
+stdbool.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/device_io.c
+device_io.h
+/mnt/e/Operating System Curriculum Design/fulfs/device_io.h
+stdio.h
+-
+string.h
+-
+memory/alloc.h
+/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.h
+utils/sys.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/sys.h
+utils/log.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/log.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/device_io.h
+stddef.h
+-
+stdint.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fs.c
+fs.h
+/mnt/e/Operating System Curriculum Design/fulfs/fs.h
+fs_def.h
+/mnt/e/Operating System Curriculum Design/fulfs/fs_def.h
+fulfs/fulfs.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/fulfs.h
+memory/alloc.h
+/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.h
+utils/path.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/path.h
+ctype.h
+-
+string.h
+-
+assert.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fs.h
+fs_def.h
+/mnt/e/Operating System Curriculum Design/fulfs/fs_def.h
+device_io.h
+/mnt/e/Operating System Curriculum Design/fulfs/device_io.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fs_def.h
+device_io.h
+/mnt/e/Operating System Curriculum Design/fulfs/device_io.h
+time.h
+-
+stdint.h
+-
+stdbool.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_block_file.c
+base_block_file.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_block_file.h
+../utils/math.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/math.h
+string.h
+-
+assert.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_block_file.h
+superblock.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.h
+inode.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.h
+data_block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/data_block.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_file.c
+base_file.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_file.h
+mem_inode.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/mem_inode.h
+block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/block.h
+base_block_file.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_block_file.h
+../utils/math.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/math.h
+../utils/log.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/log.h
+string.h
+-
+time.h
+-
+assert.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_file.h
+mem_inode.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/mem_inode.h
+superblock.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/block.h
+stdint.h
+-
+stdbool.h
+-
+../device_io.h
+/mnt/e/Operating System Curriculum Design/fulfs/device_io.h
+../utils/log.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/log.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/data_block.c
+data_block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/data_block.h
+stdint.h
+-
+stdbool.h
+-
+block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/block.h
+assert.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/data_block.h
+block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/block.h
+../device_io.h
+/mnt/e/Operating System Curriculum Design/fulfs/device_io.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/def.h
+stdint.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/file_dir.c
+file_dir.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/file_dir.h
+base_file.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_file.h
+../utils/math.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/math.h
+../utils/log.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/log.h
+../memory/alloc.h
+/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.h
+../utils/path.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/path.h
+string.h
+-
+assert.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/file_dir.h
+base_file.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_file.h
+filesystem.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/filesystem.h
+../fs_def.h
+/mnt/e/Operating System Curriculum Design/fulfs/fs_def.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/filesystem.c
+filesystem.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/filesystem.h
+block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/block.h
+inode.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.h
+superblock.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.h
+data_block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/data_block.h
+base_file.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_file.h
+../utils/math.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/math.h
+../utils/log.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/log.h
+../memory/alloc.h
+/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/filesystem.h
+stdint.h
+-
+superblock.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.h
+block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/block.h
+../device_io.h
+/mnt/e/Operating System Curriculum Design/fulfs/device_io.h
+../fs_def.h
+/mnt/e/Operating System Curriculum Design/fulfs/fs_def.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/fulfs.h
+filesystem.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/filesystem.h
+file_dir.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/file_dir.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.c
+inode.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.h
+../utils/math.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/math.h
+../utils/log.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/log.h
+block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/block.h
+assert.h
+-
+string.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.h
+stdint.h
+-
+stddef.h
+-
+def.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/def.h
+block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/block.h
+superblock.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/mem_inode.c
+mem_inode.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/mem_inode.h
+stdbool.h
+-
+inode.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.h
+assert.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/mem_inode.h
+inode.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.c
+superblock.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.h
+assert.h
+-
+string.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.h
+stdint.h
+-
+stddef.h
+-
+../device_io.h
+/mnt/e/Operating System Curriculum Design/fulfs/device_io.h
+block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/block.h
+def.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/def.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.c
+alloc.h
+/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.h
+stdlib.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.h
+stddef.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/shell.c
+shell.h
+/mnt/e/Operating System Curriculum Design/fulfs/shell.h
+stdio.h
+-
+stdbool.h
+-
+string.h
+-
+memory/alloc.h
+/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.h
+datastruct/string.h
+/mnt/e/Operating System Curriculum Design/fulfs/datastruct/string.h
+fs.h
+/mnt/e/Operating System Curriculum Design/fulfs/fs.h
+shell_command.h
+/mnt/e/Operating System Curriculum Design/fulfs/shell_command.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/shell.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/shell_command.c
+shell_command.h
+/mnt/e/Operating System Curriculum Design/fulfs/shell_command.h
+string.h
+-
+utils/path.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/path.h
+utils/sys.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/sys.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/shell_command.h
+stdio.h
+-
+stdlib.h
+-
+fs.h
+/mnt/e/Operating System Curriculum Design/fulfs/fs.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/test.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+stdbool.h
+-
+string.h
+-
+device_io.h
+/mnt/e/Operating System Curriculum Design/fulfs/device_io.h
+datastruct/string.h
+/mnt/e/Operating System Curriculum Design/fulfs/datastruct/string.h
+utils/sys.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/sys.h
+utils/testtools.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/testtools.h
+utils/path.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/path.h
+fulfs/filesystem.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/filesystem.h
+fulfs/superblock.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.h
+fulfs/data_block.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/data_block.h
+fulfs/inode.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.h
+fulfs/base_file.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_file.h
+fulfs/base_block_file.h
+/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_block_file.h
+fs.h
+/mnt/e/Operating System Curriculum Design/fulfs/fs.h
+utils/log.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/log.h
+assert.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/utils/log.c
+log.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/log.h
+stdlib.h
+-
+stdio.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/utils/log.h
+stdio.h
+-
+stdarg.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/utils/math.h
+
+/mnt/e/Operating System Curriculum Design/fulfs/utils/path.c
+path.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/path.h
+../memory/alloc.h
+/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.h
+string.h
+-
+stdbool.h
+-
+assert.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/utils/path.h
+stddef.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/utils/sys.c
+sys.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/sys.h
+stdio.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/utils/sys.h
+stdio.h
+-
+stdbool.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/utils/testtools.c
+testtools.h
+/mnt/e/Operating System Curriculum Design/fulfs/utils/testtools.h
+stdio.h
+-
+
+/mnt/e/Operating System Curriculum Design/fulfs/utils/testtools.h
+stddef.h
+-
+stdint.h
+-
+stdbool.h
+-
+stdio.h
+-
+

@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
     if (strcmp(sub_cmd, "create") == 0) {
 
         if (arg_count < 3) {
-            fprintf(stderr, "命令有误!\n");
+            fprintf(stderr, "Wrong Command!\n");
             return ERROR;
         }
 
@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
     }else if (strcmp(sub_cmd, "format") == 0) {
 
         if (arg_count < 4) {
-            fprintf(stderr, "命令有误!\n");
+            fprintf(stderr, "Wrong Command!\n");
             return ERROR;
         }
 
@@ -59,7 +59,7 @@ int main(int argc, char* argv[])
 
     } else if (strcmp(sub_cmd, "help") == 0) {
 
-        printf("命令帮助:\n"
+        printf("Help:\n"
                "create <文件路径> <文件大小>  创建容器文件\n"
                "format <容器路径> <文件系统类型> <扇区大小> \n"
                "enter  进入文件系统shell以操作文件系统\n"
@@ -67,7 +67,7 @@ int main(int argc, char* argv[])
                );
 
     } else {
-        fprintf(stderr, "命令有误!\n");
+        fprintf(stderr, "Wrong Command!\n");
         return ERROR;
     }
 }
@@ -139,28 +139,28 @@ int enter(void)
         }
 
         if (ret != 2) {
-            printf("解析配置文件%s错误！\n", config_file);
+            printf("Parsing configuration files %s field！\n", config_file);
             fclose(fp);
             return ERROR;
         }
 
         int device = device_add(path);
         if (!DEVICE_IO_SUCCESS(device)) {
-            printf("挂载失败：盘号%c 容器文件%s\n", drive_letter, path);
+            printf("Mount Field：Disk number %c , Container file %s\n", drive_letter, path);
             continue;
         }
 
         if (!fs_mount(device, drive_letter, FS_TYPE_FULFS)) {
-            printf("挂载失败：盘号%c 容器文件%s\n", drive_letter, path);
+            printf("Mount Field：Disk number %c , Container file %s\n", drive_letter, path);
             continue;
         }
 
-        printf("挂载成功：盘号%c 容器文件%s\n", drive_letter, path);
+        printf("Mount successfully：盘号%c 容器文件%s\n", drive_letter, path);
     }
     fclose(fp);
 
 
 
-    printf("******** 欢迎使用fulfs文件系统shell！ ********\n");
+    printf("******** Welcome to fulfs flie system shell！ ********\n");
     return shell_main();
 }
