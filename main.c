@@ -60,10 +60,10 @@ int main(int argc, char* argv[])
     } else if (strcmp(sub_cmd, "help") == 0) {
 
         printf("Help:\n"
-               "create <文件路径> <文件大小>  创建容器文件\n"
-               "format <容器路径> <文件系统类型> <扇区大小> \n"
-               "enter  进入文件系统shell以操作文件系统\n"
-               "help  查看此帮助 \n"
+               "create <path> <fire size>  create container files\n"
+               "format <container path> <file system> <sector Size> \n"
+               "enter  Enter shell\n"
+               "help   Show this help \n"
                );
 
     } else {
@@ -75,10 +75,10 @@ int main(int argc, char* argv[])
 int create(const char* path, size_t size)
 {
     if (ft_create_bin_file(path, size)) {
-        printf("创建容器文件%s成功，文件大小%d\n", path, (int)size);
+        printf("Successful creation of container file %s,file size is %d\n", path, (int)size);
         return ERROR;
     } else {
-        printf("创建容器文件%s，大小%d失败。。。\n", path, (int)size);
+        printf("Failed to creation of container file  %s,file size is %d!\n", path, (int)size);
         return 0;
     }
 }
@@ -89,30 +89,30 @@ int format(const char* path, const char* type, int block_size)
     if (strcmp(type, "fulfs") == 0) {
         fs_type = FS_TYPE_FULFS;
     } else {
-        printf("未知的文件系统类型。。。\n");
+        printf("Unknown file system type...\n");
         return ERROR;
     }
 
     int device = device_add(path);
     if (!DEVICE_IO_SUCCESS(device)) {
-        printf("设备挂载失败。。。\n");
+        printf("Device mounting failed...\n");
         return ERROR;
     }
 
     int sectors_per_block = block_size / BYTES_PER_SECTOR;
     if (! (0 < sectors_per_block && sectors_per_block <= 16)) {
-        printf("目前只支持512的1到16倍的块大小");
+        printf("Currently only 1 to 16 times the block size of 512 is supported!");
         device_del(device);
         return ERROR;
     }
 
 
     if (fs_format(device, sectors_per_block, fs_type) != FS_SUCCESS) {
-        printf("格式化失败。。。\n");
+        printf("Formatting failed...\n");
         device_del(device);
         return ERROR;
     } else {
-        printf("格式化成功! 块大小: %d\n", sectors_per_block * BYTES_PER_SECTOR);
+        printf("Successful formatting! Block size:%d\n", sectors_per_block * BYTES_PER_SECTOR);
         device_del(device);
         return 0;
     }
@@ -124,7 +124,7 @@ int enter(void)
 
     FILE* fp = fopen(config_file, "rb");
     if (fp == NULL) {
-        printf("打开配置文件失败！可能是没有配置文件？\n");
+        printf("Failed to open configuration file! Maybe there is no configuration file?\n");
         return ERROR;
     }
 
@@ -161,6 +161,6 @@ int enter(void)
 
 
 
-    printf("******** Welcome to fulfs flie system shell！ ********\n");
+    printf("************  Welcome to index ！ ************\n");
     return shell_main();
 }

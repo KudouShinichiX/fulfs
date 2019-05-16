@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /mnt/e/Operating System Curriculum Design/fulfs
-# Build directory: /mnt/e/Operating System Curriculum Design/fulfs/bulid
+# Source directory: /mnt/d/Operating System/fulfs
+# Build directory: /mnt/d/Operating System/fulfs/bulid
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

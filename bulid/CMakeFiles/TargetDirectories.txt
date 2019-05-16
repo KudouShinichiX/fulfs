@@ -1,5 +1,5 @@
-/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles/rebuild_cache.dir
-/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles/test.dir
-/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles/edit_cache.dir
-/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles/main.dir
-/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles/my_test.dir
+/mnt/d/Operating System/fulfs/bulid/CMakeFiles/rebuild_cache.dir
+/mnt/d/Operating System/fulfs/bulid/CMakeFiles/test.dir
+/mnt/d/Operating System/fulfs/bulid/CMakeFiles/edit_cache.dir
+/mnt/d/Operating System/fulfs/bulid/CMakeFiles/main.dir
+/mnt/d/Operating System/fulfs/bulid/CMakeFiles/my_test.dir

@@ -20,7 +20,7 @@ int device_add(const char* path)
     /* 已经挂载的文件就不允许别人挂载了 */
     for (int i = 0; i < MAX_DEVICE_COUNT; i++) {
         if (device_handle[i] != NULL && strcmp(device_handle[i]->path, path) == 0) {
-            log_info("%s文件已经被当成设备挂载了，请先卸载", path);
+            log_info("%s has been mounted as a device, please uninstall it first!", path);
             return DEVICE_IO_ERROR;
         }
     }

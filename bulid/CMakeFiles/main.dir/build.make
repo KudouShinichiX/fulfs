@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/e/Operating System Curriculum Design/fulfs"
+CMAKE_SOURCE_DIR = "/mnt/d/Operating System/fulfs"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/e/Operating System Curriculum Design/fulfs/bulid"
+CMAKE_BINARY_DIR = "/mnt/d/Operating System/fulfs/bulid"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/main.dir/flags.make
 
 CMakeFiles/main.dir/main.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/main.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/main.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/main.c.o   -c "/mnt/d/Operating System/fulfs/main.c"
 
 CMakeFiles/main.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/main.c" > CMakeFiles/main.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/main.c" > CMakeFiles/main.dir/main.c.i
 
 CMakeFiles/main.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/main.c" -o CMakeFiles/main.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/main.c" -o CMakeFiles/main.dir/main.c.s
 
 CMakeFiles/main.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/main.dir/main.c.o.provides.build: CMakeFiles/main.dir/main.c.o
 
 CMakeFiles/main.dir/memory/alloc.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/memory/alloc.c.o: ../memory/alloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/memory/alloc.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/memory/alloc.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/main.dir/memory/alloc.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/memory/alloc.c.o   -c "/mnt/d/Operating System/fulfs/memory/alloc.c"
 
 CMakeFiles/main.dir/memory/alloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/memory/alloc.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.c" > CMakeFiles/main.dir/memory/alloc.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/memory/alloc.c" > CMakeFiles/main.dir/memory/alloc.c.i
 
 CMakeFiles/main.dir/memory/alloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/memory/alloc.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/memory/alloc.c" -o CMakeFiles/main.dir/memory/alloc.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/memory/alloc.c" -o CMakeFiles/main.dir/memory/alloc.c.s
 
 CMakeFiles/main.dir/memory/alloc.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/main.dir/memory/alloc.c.o.provides.build: CMakeFiles/main.dir/memory/
 
 CMakeFiles/main.dir/utils/sys.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils/sys.c.o: ../utils/sys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/utils/sys.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/utils/sys.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/utils/sys.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/main.dir/utils/sys.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/utils/sys.c.o   -c "/mnt/d/Operating System/fulfs/utils/sys.c"
 
 CMakeFiles/main.dir/utils/sys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/utils/sys.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/utils/sys.c" > CMakeFiles/main.dir/utils/sys.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/utils/sys.c" > CMakeFiles/main.dir/utils/sys.c.i
 
 CMakeFiles/main.dir/utils/sys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/utils/sys.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/utils/sys.c" -o CMakeFiles/main.dir/utils/sys.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/utils/sys.c" -o CMakeFiles/main.dir/utils/sys.c.s
 
 CMakeFiles/main.dir/utils/sys.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/main.dir/utils/sys.c.o.provides.build: CMakeFiles/main.dir/utils/sys.
 
 CMakeFiles/main.dir/utils/testtools.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils/testtools.c.o: ../utils/testtools.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/utils/testtools.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/utils/testtools.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/utils/testtools.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/main.dir/utils/testtools.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/utils/testtools.c.o   -c "/mnt/d/Operating System/fulfs/utils/testtools.c"
 
 CMakeFiles/main.dir/utils/testtools.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/utils/testtools.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/utils/testtools.c" > CMakeFiles/main.dir/utils/testtools.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/utils/testtools.c" > CMakeFiles/main.dir/utils/testtools.c.i
 
 CMakeFiles/main.dir/utils/testtools.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/utils/testtools.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/utils/testtools.c" -o CMakeFiles/main.dir/utils/testtools.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/utils/testtools.c" -o CMakeFiles/main.dir/utils/testtools.c.s
 
 CMakeFiles/main.dir/utils/testtools.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/main.dir/utils/testtools.c.o.provides.build: CMakeFiles/main.dir/util
 
 CMakeFiles/main.dir/utils/log.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils/log.c.o: ../utils/log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/utils/log.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/utils/log.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/utils/log.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/main.dir/utils/log.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/utils/log.c.o   -c "/mnt/d/Operating System/fulfs/utils/log.c"
 
 CMakeFiles/main.dir/utils/log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/utils/log.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/utils/log.c" > CMakeFiles/main.dir/utils/log.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/utils/log.c" > CMakeFiles/main.dir/utils/log.c.i
 
 CMakeFiles/main.dir/utils/log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/utils/log.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/utils/log.c" -o CMakeFiles/main.dir/utils/log.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/utils/log.c" -o CMakeFiles/main.dir/utils/log.c.s
 
 CMakeFiles/main.dir/utils/log.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/main.dir/utils/log.c.o.provides.build: CMakeFiles/main.dir/utils/log.
 
 CMakeFiles/main.dir/utils/path.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/utils/path.c.o: ../utils/path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/utils/path.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/utils/path.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/utils/path.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/main.dir/utils/path.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/utils/path.c.o   -c "/mnt/d/Operating System/fulfs/utils/path.c"
 
 CMakeFiles/main.dir/utils/path.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/utils/path.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/utils/path.c" > CMakeFiles/main.dir/utils/path.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/utils/path.c" > CMakeFiles/main.dir/utils/path.c.i
 
 CMakeFiles/main.dir/utils/path.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/utils/path.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/utils/path.c" -o CMakeFiles/main.dir/utils/path.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/utils/path.c" -o CMakeFiles/main.dir/utils/path.c.s
 
 CMakeFiles/main.dir/utils/path.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/main.dir/utils/path.c.o.provides.build: CMakeFiles/main.dir/utils/pat
 
 CMakeFiles/main.dir/datastruct/string.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/datastruct/string.c.o: ../datastruct/string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/datastruct/string.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/datastruct/string.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/datastruct/string.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/main.dir/datastruct/string.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/datastruct/string.c.o   -c "/mnt/d/Operating System/fulfs/datastruct/string.c"
 
 CMakeFiles/main.dir/datastruct/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/datastruct/string.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/datastruct/string.c" > CMakeFiles/main.dir/datastruct/string.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/datastruct/string.c" > CMakeFiles/main.dir/datastruct/string.c.i
 
 CMakeFiles/main.dir/datastruct/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/datastruct/string.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/datastruct/string.c" -o CMakeFiles/main.dir/datastruct/string.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/datastruct/string.c" -o CMakeFiles/main.dir/datastruct/string.c.s
 
 CMakeFiles/main.dir/datastruct/string.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/main.dir/datastruct/string.c.o.provides.build: CMakeFiles/main.dir/da
 
 CMakeFiles/main.dir/shell.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/shell.c.o: ../shell.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/shell.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/shell.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/shell.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/main.dir/shell.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/shell.c.o   -c "/mnt/d/Operating System/fulfs/shell.c"
 
 CMakeFiles/main.dir/shell.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/shell.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/shell.c" > CMakeFiles/main.dir/shell.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/shell.c" > CMakeFiles/main.dir/shell.c.i
 
 CMakeFiles/main.dir/shell.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/shell.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/shell.c" -o CMakeFiles/main.dir/shell.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/shell.c" -o CMakeFiles/main.dir/shell.c.s
 
 CMakeFiles/main.dir/shell.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/main.dir/shell.c.o.provides.build: CMakeFiles/main.dir/shell.c.o
 
 CMakeFiles/main.dir/shell_command.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/shell_command.c.o: ../shell_command.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/shell_command.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/shell_command.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/shell_command.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/main.dir/shell_command.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/shell_command.c.o   -c "/mnt/d/Operating System/fulfs/shell_command.c"
 
 CMakeFiles/main.dir/shell_command.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/shell_command.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/shell_command.c" > CMakeFiles/main.dir/shell_command.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/shell_command.c" > CMakeFiles/main.dir/shell_command.c.i
 
 CMakeFiles/main.dir/shell_command.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/shell_command.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/shell_command.c" -o CMakeFiles/main.dir/shell_command.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/shell_command.c" -o CMakeFiles/main.dir/shell_command.c.s
 
 CMakeFiles/main.dir/shell_command.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/main.dir/shell_command.c.o.provides.build: CMakeFiles/main.dir/shell_
 
 CMakeFiles/main.dir/fs.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/fs.c.o: ../fs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/fs.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fs.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/fs.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/main.dir/fs.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fs.c.o   -c "/mnt/d/Operating System/fulfs/fs.c"
 
 CMakeFiles/main.dir/fs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/fs.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/fs.c" > CMakeFiles/main.dir/fs.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/fs.c" > CMakeFiles/main.dir/fs.c.i
 
 CMakeFiles/main.dir/fs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/fs.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/fs.c" -o CMakeFiles/main.dir/fs.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/fs.c" -o CMakeFiles/main.dir/fs.c.s
 
 CMakeFiles/main.dir/fs.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/main.dir/fs.c.o.provides.build: CMakeFiles/main.dir/fs.c.o
 
 CMakeFiles/main.dir/device_io.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/device_io.c.o: ../device_io.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/device_io.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/device_io.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/device_io.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/main.dir/device_io.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/device_io.c.o   -c "/mnt/d/Operating System/fulfs/device_io.c"
 
 CMakeFiles/main.dir/device_io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/device_io.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/device_io.c" > CMakeFiles/main.dir/device_io.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/device_io.c" > CMakeFiles/main.dir/device_io.c.i
 
 CMakeFiles/main.dir/device_io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/device_io.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/device_io.c" -o CMakeFiles/main.dir/device_io.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/device_io.c" -o CMakeFiles/main.dir/device_io.c.s
 
 CMakeFiles/main.dir/device_io.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/main.dir/device_io.c.o.provides.build: CMakeFiles/main.dir/device_io.
 
 CMakeFiles/main.dir/fulfs/base_block_file.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/fulfs/base_block_file.c.o: ../fulfs/base_block_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/fulfs/base_block_file.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/base_block_file.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_block_file.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/main.dir/fulfs/base_block_file.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/base_block_file.c.o   -c "/mnt/d/Operating System/fulfs/fulfs/base_block_file.c"
 
 CMakeFiles/main.dir/fulfs/base_block_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/fulfs/base_block_file.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_block_file.c" > CMakeFiles/main.dir/fulfs/base_block_file.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/fulfs/base_block_file.c" > CMakeFiles/main.dir/fulfs/base_block_file.c.i
 
 CMakeFiles/main.dir/fulfs/base_block_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/fulfs/base_block_file.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_block_file.c" -o CMakeFiles/main.dir/fulfs/base_block_file.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/fulfs/base_block_file.c" -o CMakeFiles/main.dir/fulfs/base_block_file.c.s
 
 CMakeFiles/main.dir/fulfs/base_block_file.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/main.dir/fulfs/base_block_file.c.o.provides.build: CMakeFiles/main.di
 
 CMakeFiles/main.dir/fulfs/base_file.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/fulfs/base_file.c.o: ../fulfs/base_file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.dir/fulfs/base_file.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/base_file.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_file.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/main.dir/fulfs/base_file.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/base_file.c.o   -c "/mnt/d/Operating System/fulfs/fulfs/base_file.c"
 
 CMakeFiles/main.dir/fulfs/base_file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/fulfs/base_file.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_file.c" > CMakeFiles/main.dir/fulfs/base_file.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/fulfs/base_file.c" > CMakeFiles/main.dir/fulfs/base_file.c.i
 
 CMakeFiles/main.dir/fulfs/base_file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/fulfs/base_file.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/base_file.c" -o CMakeFiles/main.dir/fulfs/base_file.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/fulfs/base_file.c" -o CMakeFiles/main.dir/fulfs/base_file.c.s
 
 CMakeFiles/main.dir/fulfs/base_file.c.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/main.dir/fulfs/base_file.c.o.provides.build: CMakeFiles/main.dir/fulf
 
 CMakeFiles/main.dir/fulfs/data_block.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/fulfs/data_block.c.o: ../fulfs/data_block.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/main.dir/fulfs/data_block.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/data_block.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/data_block.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/main.dir/fulfs/data_block.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/data_block.c.o   -c "/mnt/d/Operating System/fulfs/fulfs/data_block.c"
 
 CMakeFiles/main.dir/fulfs/data_block.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/fulfs/data_block.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/data_block.c" > CMakeFiles/main.dir/fulfs/data_block.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/fulfs/data_block.c" > CMakeFiles/main.dir/fulfs/data_block.c.i
 
 CMakeFiles/main.dir/fulfs/data_block.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/fulfs/data_block.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/data_block.c" -o CMakeFiles/main.dir/fulfs/data_block.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/fulfs/data_block.c" -o CMakeFiles/main.dir/fulfs/data_block.c.s
 
 CMakeFiles/main.dir/fulfs/data_block.c.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/main.dir/fulfs/data_block.c.o.provides.build: CMakeFiles/main.dir/ful
 
 CMakeFiles/main.dir/fulfs/file_dir.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/fulfs/file_dir.c.o: ../fulfs/file_dir.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/main.dir/fulfs/file_dir.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/file_dir.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/file_dir.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/main.dir/fulfs/file_dir.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/file_dir.c.o   -c "/mnt/d/Operating System/fulfs/fulfs/file_dir.c"
 
 CMakeFiles/main.dir/fulfs/file_dir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/fulfs/file_dir.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/file_dir.c" > CMakeFiles/main.dir/fulfs/file_dir.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/fulfs/file_dir.c" > CMakeFiles/main.dir/fulfs/file_dir.c.i
 
 CMakeFiles/main.dir/fulfs/file_dir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/fulfs/file_dir.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/file_dir.c" -o CMakeFiles/main.dir/fulfs/file_dir.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/fulfs/file_dir.c" -o CMakeFiles/main.dir/fulfs/file_dir.c.s
 
 CMakeFiles/main.dir/fulfs/file_dir.c.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/main.dir/fulfs/file_dir.c.o.provides.build: CMakeFiles/main.dir/fulfs
 
 CMakeFiles/main.dir/fulfs/filesystem.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/fulfs/filesystem.c.o: ../fulfs/filesystem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.dir/fulfs/filesystem.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/filesystem.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/filesystem.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/main.dir/fulfs/filesystem.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/filesystem.c.o   -c "/mnt/d/Operating System/fulfs/fulfs/filesystem.c"
 
 CMakeFiles/main.dir/fulfs/filesystem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/fulfs/filesystem.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/filesystem.c" > CMakeFiles/main.dir/fulfs/filesystem.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/fulfs/filesystem.c" > CMakeFiles/main.dir/fulfs/filesystem.c.i
 
 CMakeFiles/main.dir/fulfs/filesystem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/fulfs/filesystem.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/filesystem.c" -o CMakeFiles/main.dir/fulfs/filesystem.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/fulfs/filesystem.c" -o CMakeFiles/main.dir/fulfs/filesystem.c.s
 
 CMakeFiles/main.dir/fulfs/filesystem.c.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/main.dir/fulfs/filesystem.c.o.provides.build: CMakeFiles/main.dir/ful
 
 CMakeFiles/main.dir/fulfs/inode.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/fulfs/inode.c.o: ../fulfs/inode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/main.dir/fulfs/inode.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/inode.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/main.dir/fulfs/inode.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/inode.c.o   -c "/mnt/d/Operating System/fulfs/fulfs/inode.c"
 
 CMakeFiles/main.dir/fulfs/inode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/fulfs/inode.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.c" > CMakeFiles/main.dir/fulfs/inode.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/fulfs/inode.c" > CMakeFiles/main.dir/fulfs/inode.c.i
 
 CMakeFiles/main.dir/fulfs/inode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/fulfs/inode.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/inode.c" -o CMakeFiles/main.dir/fulfs/inode.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/fulfs/inode.c" -o CMakeFiles/main.dir/fulfs/inode.c.s
 
 CMakeFiles/main.dir/fulfs/inode.c.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/main.dir/fulfs/inode.c.o.provides.build: CMakeFiles/main.dir/fulfs/in
 
 CMakeFiles/main.dir/fulfs/mem_inode.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/fulfs/mem_inode.c.o: ../fulfs/mem_inode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/main.dir/fulfs/mem_inode.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/mem_inode.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/mem_inode.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/main.dir/fulfs/mem_inode.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/mem_inode.c.o   -c "/mnt/d/Operating System/fulfs/fulfs/mem_inode.c"
 
 CMakeFiles/main.dir/fulfs/mem_inode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/fulfs/mem_inode.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/mem_inode.c" > CMakeFiles/main.dir/fulfs/mem_inode.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/fulfs/mem_inode.c" > CMakeFiles/main.dir/fulfs/mem_inode.c.i
 
 CMakeFiles/main.dir/fulfs/mem_inode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/fulfs/mem_inode.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/mem_inode.c" -o CMakeFiles/main.dir/fulfs/mem_inode.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/fulfs/mem_inode.c" -o CMakeFiles/main.dir/fulfs/mem_inode.c.s
 
 CMakeFiles/main.dir/fulfs/mem_inode.c.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/main.dir/fulfs/mem_inode.c.o.provides.build: CMakeFiles/main.dir/fulf
 
 CMakeFiles/main.dir/fulfs/superblock.c.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/fulfs/superblock.c.o: ../fulfs/superblock.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/main.dir/fulfs/superblock.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/superblock.c.o   -c "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/main.dir/fulfs/superblock.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/main.dir/fulfs/superblock.c.o   -c "/mnt/d/Operating System/fulfs/fulfs/superblock.c"
 
 CMakeFiles/main.dir/fulfs/superblock.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/main.dir/fulfs/superblock.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.c" > CMakeFiles/main.dir/fulfs/superblock.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/mnt/d/Operating System/fulfs/fulfs/superblock.c" > CMakeFiles/main.dir/fulfs/superblock.c.i
 
 CMakeFiles/main.dir/fulfs/superblock.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/main.dir/fulfs/superblock.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/e/Operating System Curriculum Design/fulfs/fulfs/superblock.c" -o CMakeFiles/main.dir/fulfs/superblock.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/mnt/d/Operating System/fulfs/fulfs/superblock.c" -o CMakeFiles/main.dir/fulfs/superblock.c.s
 
 CMakeFiles/main.dir/fulfs/superblock.c.o.requires:
 
@@ -559,7 +559,7 @@ main: CMakeFiles/main.dir/fulfs/mem_inode.c.o
 main: CMakeFiles/main.dir/fulfs/superblock.c.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/d/Operating System/fulfs/bulid/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Linking C executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -594,6 +594,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd "/mnt/e/Operating System Curriculum Design/fulfs/bulid" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/e/Operating System Curriculum Design/fulfs" "/mnt/e/Operating System Curriculum Design/fulfs" "/mnt/e/Operating System Curriculum Design/fulfs/bulid" "/mnt/e/Operating System Curriculum Design/fulfs/bulid" "/mnt/e/Operating System Curriculum Design/fulfs/bulid/CMakeFiles/main.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/mnt/d/Operating System/fulfs/bulid" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/d/Operating System/fulfs" "/mnt/d/Operating System/fulfs" "/mnt/d/Operating System/fulfs/bulid" "/mnt/d/Operating System/fulfs/bulid" "/mnt/d/Operating System/fulfs/bulid/CMakeFiles/main.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 
